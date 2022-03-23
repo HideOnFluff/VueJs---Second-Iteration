@@ -12,6 +12,7 @@
                     :width="3000"
                     v-bind:chartData="response"
                     v-bind:chartType="chartType"
+                    v-bind:settings="watching.settings"
                 />
               </div>
           <b-alert v-model="showDismissibleAlert" variant="danger" dismissible>
@@ -126,9 +127,8 @@ export default {
   margin-top: 60px;
 }
 
-.scroll{
-  overflow-x: scroll;
-  white-space: nowrap;
+.scroll {
+  overflow-x : scroll;
 }
 
 </style>

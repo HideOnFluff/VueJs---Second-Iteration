@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-card header="Settings" class="mt-3" fluid aria-label="Hourly Weather Variables">
+  <b-card header="Settings" class="mt-3">
     <b-row >
       <b-col sm="6">
         <b-form-checkbox v-model="settings.selected.current_weather" name="check-button" switch>Current weather data (Marker dynamic icons)</b-form-checkbox>
